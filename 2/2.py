@@ -1232,7 +1232,7 @@ for c, count in char_counts.items():
 #take the characters, that appear only once
 sol = "".join(k for k, v in char_counts.items() if v == 1)
 
-url_3 = "http://www.pythonchallenge.com/pc/def/ocr.html"
-url_4 = url_3.replace("ocr", sol)
+url_2 = "http://www.pythonchallenge.com/pc/def/ocr.html"
+url_3 = url_2.replace("ocr", sol)
 
-print(f"\nOpen now puzzle 4: {url_4}\n")
+print(f"\nOpen now puzzle 3: {url_2}\n")
