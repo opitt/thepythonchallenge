@@ -8,4 +8,4 @@ print(text.replace(". ", ".\n"))
 url_1 = "http://www.pythonchallenge.com/pc/def/map.html"
 url_2 = url_1.replace("map", "map".translate(table))
 
-print(f"\n{url_2}\n")
+print(f"\nOpen now puzzle 2: {url_2}\n")
