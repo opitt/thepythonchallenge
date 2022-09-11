@@ -33,3 +33,7 @@ url_6 = "http://www.pythonchallenge.com/pc/def/channel.html"
 url_7 = url_6.replace("channel", sol)
 
 print(f"\nOpen now puzzle 7: {url_7}\n")
+
+sol = "oxygen"
+url_7 = url_6.replace("channel", sol)
+print(f"\nOpen now puzzle 7: {url_7}\n")
